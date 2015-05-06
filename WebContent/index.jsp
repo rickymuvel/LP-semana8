@@ -18,7 +18,7 @@
 <lp:combo elementos="U,SC,...,AL" nombre="equipos"/><br>
 <lp:combo elementos="Java,.Net,PHP,Nodejs,Javascript" nombre="lenguajesLP"/><br>
 
-<lp:radio valor="uno,dos,tres,cuatro" nombre="numeros"/>
+<lp:radio elementos="uno,dos,tres,cuatro" nombre="numeros"/>
 
 </body>
 </html>
