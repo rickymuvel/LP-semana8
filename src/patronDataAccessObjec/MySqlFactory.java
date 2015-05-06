@@ -13,6 +13,17 @@ public class MySqlFactory  extends Factory{
 		return new MySqlProductoDAO();
 	}
 
+	@Override
+	public UsuarioDAO getUsuario() {
+		// TODO Auto-generated method stub
+		return new MySqlUsuarioDAO();
+	}
+	
+	public RolesDAO getRol() {
+		// TODO Auto-generated method stub
+		return new MySqlRolesDAO();
+	}
+
 	
 	
 }

@@ -8,6 +8,8 @@ public abstract class  Factory {
 	
 	public abstract ComboDAO  getCombo();
 	public abstract ProductoDAO getProducto();
+	public abstract UsuarioDAO getUsuario();
+	public abstract RolesDAO getRol();
 	
 	public static Factory getTipo(int tipo){
 		switch (tipo) {

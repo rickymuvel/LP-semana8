@@ -12,5 +12,17 @@ public class SqlServerFactory extends Factory{
 		return null;
 	}
 
+	@Override
+	public UsuarioDAO getUsuario() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public RolesDAO getRol() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }

@@ -18,8 +18,8 @@ public class TagRadio extends TagSupport {
 		String[] separados = elementos.split(",");
 		
 		try {
-			out.print("<input type='radio' name='"+ nombre +"'>");
 			for (int i = 0; i < separados.length; i++) {
+				out.print("<input type='radio' name='"+ nombre +"'>");
 				out.print(separados[i]);
 				out.print("<br>");
 			}
