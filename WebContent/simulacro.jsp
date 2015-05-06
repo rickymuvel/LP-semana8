@@ -10,9 +10,26 @@
 <body>
 
 <h1>Productos por Categoría</h1>
-
-
-
+<form action="consultaProducto">
+	Categoria <lp:cboDinamico sql="SQL_CATEGORIA" nombre="cboCat"/>
+	<input type="submit" value="Filtrar" />
+</form>
+<table>
+<%
+	List<ProductoBean> data = (List<ProductoBean>) request.getAttribute("productos");
+	if(data!=null){
+		for(ProductoBean b:data){
+%>
+<tr>
+	<td><%= b.getCodigo() %></td>
+	<td><%= b.getNombre() %></td>
+	<td><%= b.getMarca() %></td>
+</tr>
+<%
+		}
+	}
+%>
+</table>
 </body>
 </html>
 

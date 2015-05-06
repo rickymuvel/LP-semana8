@@ -29,15 +29,15 @@
 		
 	</tag>
 	<tag>
-		<name>radioButton</name>
-		<tagclass></tagclass>
+		<name>radio</name>
+		<tagclass>tags.TagRadio</tagclass>
 		<bodycontent>empty</bodycontent>
 		<attribute>
-			<name>nombre</name>
+			<name>elementos</name>
 			<required>true</required>
 		</attribute>
 		<attribute>
-			<name>valor</name>
+			<name>nombre</name>
 			<required>true</required>
 		</attribute>
 	</tag>
